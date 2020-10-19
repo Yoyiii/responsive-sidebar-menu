@@ -7,8 +7,8 @@
   --nav-width: 68px;
 
   /*===== Colors =====*/
-  --first-color: #4723D9;
-  --first-color-light: #AFA5D9;
+  --first-color: black;
+  --first-color-light: #fff;
   --white-color: #F7F6FB;
   
   /*===== Font and typography =====*/
@@ -25,6 +25,7 @@
 }
 
 body{
+  justify-content: center;
   position: relative;
   margin: var(--header-height) 0 0 0;
   padding: 0 1rem;
@@ -191,5 +192,18 @@ a{
   }
 }
 
+ .btn a {
+     display: inline-block;
+     padding: 8px 20px;
+     background:black;
+     color: #fff;
+     border-radius: 40px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     text-decoration: none;
+ }
 
-
+ .text p {
+     margin-top: 10px;
+     font-size: 30px;
+ }

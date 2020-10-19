@@ -1,0 +1,26 @@
+{
+  "name": "responsive-sidebar-menu",
+  "version": "1.0.0",
+  "description": "Beautiful and simple sidebar menu, contains a logo and link icons. Include in the header a button that shows and hides the sidebar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedimcode/responsive-sidebar-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bedimcode/responsive-sidebar-menu/issues"
+  },
+  "homepage": "https://github.com/bedimcode/responsive-sidebar-menu#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
